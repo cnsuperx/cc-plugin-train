@@ -14,6 +14,9 @@
     },
     "i18n:MAIN_MENU.package.title/hello-world/open-all-panel": {
       "message": "hello-world:open-all-panel"
+    },
+    "i18n:MAIN_MENU.package.title/hello-world/test": {
+      "message": "hello-world:test"
     }
   },
   "runtime-resource": {
@@ -51,6 +54,13 @@
     "main": "panel/page3.js",
     "type": "dockable",
     "title": "page3",
+    "width": 400,
+    "height": 300
+  },
+  "panel.page4": {
+    "main": "panel/page4.js",
+    "type": "dockable",
+    "title": "page4",
     "width": 400,
     "height": 300
   },

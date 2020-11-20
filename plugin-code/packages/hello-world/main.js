@@ -23,10 +23,14 @@ module.exports = {
         'clicked'() {
             Editor.log('Button clicked!');
         },
+        'test'() {
+            Editor.log('test');
+        },
         'open-all-panel'(event) {
             Editor.Panel.open("hello-world.page1");
             Editor.Panel.open("hello-world.page2");
             Editor.Panel.open("hello-world.page3");
+            Editor.Panel.open("hello-world.page4");
         },
         'onPage3'(event, data) {
             Editor.log("onPage3: " + data);
